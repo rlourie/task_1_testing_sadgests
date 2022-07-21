@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 class Test:
     def setup(self):
         self.url = "https://go.mail.ru/"
-        ex_path = pathlib.Path.home() / 'Desktop' / 'task_1_testing_saggests' / 'tests' / 'chromedriver'
+        ex_path = pathlib.Path.home() / 'Desktop' / 'task_1_testing_sadggests' / 'tests' / 'chromedriver'
         self.driver = webdriver.Chrome(executable_path=str(ex_path))
         self.driver.implicitly_wait(3)
 
